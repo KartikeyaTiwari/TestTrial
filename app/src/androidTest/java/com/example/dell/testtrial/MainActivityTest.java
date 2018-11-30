@@ -61,7 +61,7 @@ public class MainActivityTest {
     @Test
     public void loader(){
 
-
+//be the  change
         onView(withId(R.id.butchat)).perform(click());
 
         onView(withId(R.id.showprogress))
