@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="250dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="77dp"
+            android:layout_marginLeft="77dp"
+            android:layout_marginBottom="211dp"
+            android:text="TextView"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextenter"
+        android:layout_width="248dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:hint="Enter"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Showtext" />
+
+        <Button
+            android:id="@+id/nxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nexttoaddd" />
+
+
+        <Button
+            android:id="@+id/loaderbt"
+            android:onClick="gotoloaderact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MYLOADER ACT" />
+
+        <Button
+            android:id="@+id/gotoadap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addapp"
+            android:text="adapter" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/butchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="96dp"
+        android:onClick="chatbt"
+        android:text="gochatgo" />
+
+    <ProgressBar
+        android:id="@+id/showprogress"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>
