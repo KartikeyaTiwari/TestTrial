@@ -60,7 +60,7 @@ public class NavactTest {
 
 
 
-        onView(withText("all Gallery")).perform(click());
+        onView(withText("Import")).perform(click());
 
         onView(withId(R.id.drawer_layout)).perform(DrawerActions.close());  //Working fine
       //  onView(withContentDescription("action_settings")).perform(click());
