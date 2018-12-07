@@ -12,11 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
         <activity android:name=".Main3Activity" />
@@ -25,7 +21,11 @@
             android:label="@string/title_activity_navact"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Chatact" />
-        <activity android:name=".LoaderAct"></activity>
+        <activity android:name=".LoaderAct"> <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
     </application>
 
 </manifest>

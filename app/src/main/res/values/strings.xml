@@ -8,4 +8,19 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="input_placeholder">Write a message</string>
+
+
+
+    <string-array name="symptoms">
+        <item>Choose your Problems</item>
+        <item>Common Fever</item>
+        <item>Dark Circles</item>
+        <item>Obesity</item>
+        <item>Stress</item>
+        <item>Wrinkles</item>
+    </string-array>
+
+
+
+
 </resources>
