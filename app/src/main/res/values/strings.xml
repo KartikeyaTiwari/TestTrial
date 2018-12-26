@@ -11,13 +11,23 @@
 
 
 
-    <string-array name="symptoms">
-        <item>Choose your Problems</item>
-        <item>Common Fever</item>
-        <item>Dark Circles</item>
-        <item>Obesity</item>
-        <item>Stress</item>
-        <item>Wrinkles</item>
+    <string-array name="language">
+        <item>Choose your Language</item>
+        <item>Hindi</item>
+        <item>Tamil</item>
+        <item>Russian</item>
+        <item>Chinies</item>
+        <item>African</item>
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>Arizon</item>
+        <item>Atlantic</item>
+        <item>ackland local</item>
+        <item>Armenian local</item>
+        <item>Bengali local</item>
+
+
+
     </string-array>
 
 

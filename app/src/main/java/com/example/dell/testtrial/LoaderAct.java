@@ -19,7 +19,7 @@ public class LoaderAct extends AppCompatActivity implements AdapterView.OnItemSe
 
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.symptoms, android.R.layout.simple_spinner_item);
+                R.array.language, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
@@ -33,19 +33,19 @@ public class LoaderAct extends AppCompatActivity implements AdapterView.OnItemSe
         switch (selectedItem) {
             case "Select one Item":
                 break;
-            case "Common Fever":
+            case "Hindi":
                 Toast.makeText(getApplicationContext(), selectedItem, Toast.LENGTH_SHORT).show();
                 break;
-            case "Dark Circles":
+            case "Tamil":
                 Toast.makeText(getApplicationContext(), selectedItem, Toast.LENGTH_SHORT).show();
                 break;
-            case "Obesity":
+            case "Russian":
                 Toast.makeText(getApplicationContext(), selectedItem, Toast.LENGTH_SHORT).show();
                 break;
-            case "Stress":
+            case "Chinies":
                 Toast.makeText(getApplicationContext(), selectedItem, Toast.LENGTH_SHORT).show();
                 break;
-            case "Wrinkles":
+            case "African":
                 Toast.makeText(getApplicationContext(), selectedItem, Toast.LENGTH_SHORT).show();
                 break;
         }
